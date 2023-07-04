@@ -5,8 +5,8 @@
 - test:
 
 ```bash
-git clone https://github.com/awsmunarriz/proyectofinal_munarriz
-cd proyectofinal_munarriz
+git clone https://github.com/awsmunarriz/reactproyectofinal_munarriz
+cd reactproyectofinal_munarriz
 npm install
 npm run dev
 ```
