@@ -5,10 +5,7 @@ import { Link } from "react-router-dom";
 import "./Cart.css";
 
 const Cart = () => {
-  const { cart, clearCart, totalQuantity, total } = useContext(CartContext);
-  console.log(totalQuantity());
-  console.log(total());
-  console.log(cart);
+  const { cart, clearCart, total } = useContext(CartContext);
 
   if (cart.length === 0) {
     return (

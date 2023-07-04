@@ -37,7 +37,6 @@ const ItemListContainer = () => {
   }, [categoryId]);
 
   const catFilter = products.filter((prod) => prod.category === categoryId);
-  console.log(products);
   return (
     <div>
       {loading ? (

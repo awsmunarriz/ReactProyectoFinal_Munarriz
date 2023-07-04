@@ -46,7 +46,6 @@ const Checkout = () => {
     const docRef = await addDoc(collection(db, "orders"), {
       values,
     });
-    console.log("Document written with ID: ", docRef.id);
     setOrderID(docRef.id);
     setValues(initialState);
     clearCart();
